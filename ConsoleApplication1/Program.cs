@@ -18,7 +18,8 @@ namespace ConsoleApplication1
             int strage = p.Age;
 
             Person p2 = new Person("zhangsan", 21);
-           
+           //静态变量在任何地方都可以使用,没有限制,直接可以拿过来用
+           //静态变量相当于全局变量
         }
     }
 }
