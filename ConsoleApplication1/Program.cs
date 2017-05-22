@@ -20,6 +20,7 @@ namespace ConsoleApplication1
             Person p2 = new Person("zhangsan", 21);
            //静态变量在任何地方都可以使用,没有限制,直接可以拿过来用
            //静态变量相当于全局变量
+           //当在静态方法中访问实例成员(实例变量,实例方法)的时候,,需要先创建一个对象
         }
     }
 }
